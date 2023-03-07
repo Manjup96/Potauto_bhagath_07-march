@@ -1,0 +1,120 @@
+
+@media only screen and (max-width: 1850px) {
+    .video  {
+        height: 530px;
+		width:1583px;	
+    }
+  }
+   
+
+@media only screen and (max-width: 420px) {
+    .video  {
+        max-height: 16vh;
+		max-width:49vh;		
+    }
+   
+  }
+
+  
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .video  {
+    height:400px;
+		width:1180px;		
+  }
+}
+
+/*   
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .carousel-inner>.item>.on-the-fly-behavior  
+  {
+    height:400px;
+		width:1180px;		
+  }
+} */
+  
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+.carousel-inner>.item.active>.on-the-fly-behavior  
+{
+  height:400px;
+		width:1180px;	
+}
+.carousel-inner>.item>.on-the-fly-behavior  
+  {
+    height:400px;
+		width:1180px;		
+  }
+}
+  @media only screen and (max-width: 850px) {
+    .video  {
+        height: 270px;
+		width:820px;   	
+    }
+  }
+
+
+
+  
+@media only screen and (max-width: 1850px) {
+  .carousel-inner>.item>.on-the-fly-behavior
+  {
+        height: 530px;
+		width:100%;	
+    }
+  }
+
+
+  @media (max-width: 850px) 
+{
+  .carousel-inner>.item>.on-the-fly-behavior
+  {
+   
+    width: 100%;
+    height: 270px;
+  }
+}
+   
+   
+  
+
+  
+@media only screen and (max-width: 420px) {
+
+  
+   .carousel-inner>.item>.on-the-fly-behavior
+  {
+    display: block;
+    width: 100%;
+    height: 135px;
+  }
+}
+
+/*  
+@media only screen and (max-width: 1850px) {
+    .video  {
+        height: 530px;
+		width:100%;	
+    }
+  }
+   
+
+@media only screen and (max-width: 420px) {
+   
+    .video {
+    height: 220px;
+    width: 420px;
+}
+.banmargin
+    {
+        margin-top:18px
+    } 
+    
+  }
+  @media only screen and (max-width: 850px) {
+    .video  {
+        height: 270px;
+		width:820px;   	
+    }
+  } */

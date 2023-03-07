@@ -1,0 +1,33 @@
+
+
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+*{
+    box-sizing: border-box;
+}
+
+.carousel-cell {
+    
+    border:1px solid #ebebeb;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  counter-increment: carousel-cell;
+}
+
+
+.carousel-cell:before{
+    display: block;
+    content: ' ';
+}
+
+
+
+

@@ -1,0 +1,13 @@
+
+Options +FollowSymLinks
+RewriteEngine On
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-d [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteRule ^(.*)$ brands.php?name=$1 [QSA,L]
+
+
+#DirectoryIndex brands.php
+

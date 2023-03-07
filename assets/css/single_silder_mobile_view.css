@@ -1,0 +1,28 @@
+@media only screen and (max-width: 420px)
+{
+.single_slider 
+{
+    height: 220px;
+    background-size: contain;
+    background-repeat: unset;
+    width:100%;
+}
+}
+@media only screen and (max-width: 767px)
+{
+.single_slider 
+{
+    height: 89px;
+    background-size: contain;
+    background-repeat: unset;
+    width:100%;
+}
+}
+
+
+.slider_section
+{
+    margin-bottom:0px;
+    
+}
+

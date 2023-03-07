@@ -1,0 +1,4 @@
+Options -MultiViews
+RewriteEngine on 
+
+RewriteRule ^single-product.php?product_id=$1 [L,QSA,NC]
